@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOnSecondary"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining1"
+        android:layout_width="149dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textMap"
+        app:layout_constraintEnd_toEndOf="@+id/mapView"
+        app:layout_constraintStart_toStartOf="@+id/mapView"
+        app:layout_constraintTop_toTopOf="@+id/mapView"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining2"
+        android:layout_width="149dp"
+        android:layout_height="150dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/textFight"
+        app:layout_constraintEnd_toEndOf="@+id/fightView"
+        app:layout_constraintStart_toStartOf="@+id/fightView"
+        app:layout_constraintTop_toTopOf="@+id/fightView"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining3"
+        android:layout_width="149dp"
+        android:layout_height="150dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/textShelter"
+        app:layout_constraintEnd_toEndOf="@+id/shelterView"
+        app:layout_constraintStart_toStartOf="@+id/shelterView"
+        app:layout_constraintTop_toTopOf="@+id/shelterView"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining4"
+        android:layout_width="149dp"
+        android:layout_height="150dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/textInventory"
+        app:layout_constraintEnd_toEndOf="@+id/inventoryView"
+        app:layout_constraintStart_toStartOf="@+id/inventoryView"
+        app:layout_constraintTop_toTopOf="@+id/inventoryView"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining5"
+        android:layout_width="149dp"
+        android:layout_height="150dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/textTrader"
+        app:layout_constraintEnd_toEndOf="@+id/traderView"
+        app:layout_constraintStart_toStartOf="@+id/traderView"
+        app:layout_constraintTop_toTopOf="@+id/traderView"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining6"
+        android:layout_width="149dp"
+        android:layout_height="150dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/textItem"
+        app:layout_constraintEnd_toEndOf="@+id/itemView"
+        app:layout_constraintStart_toStartOf="@+id/itemView"
+        app:layout_constraintTop_toTopOf="@+id/itemView"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:clickable="true"
+        android:onClick="onClick"
+        android:contentDescription="@string/trader"
+        android:id="@+id/traderView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/trader"
+        app:layout_constraintBottom_toTopOf="@+id/textTrader"
+        app:layout_constraintEnd_toEndOf="@+id/textInventory"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/textInventory"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <TextView
+        android:id="@+id/textTrader"
+        style="@style/textStyle"
+        android:layout_marginBottom="40dp"
+        android:text="@string/trader"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/traderView"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/traderView" />
+
+    <TextView
+        android:id="@+id/textMap"
+        style="@style/textStyle"
+        android:layout_marginBottom="24dp"
+        android:text="@string/maps"
+        app:layout_constraintBottom_toTopOf="@+id/inventoryView"
+        app:layout_constraintEnd_toEndOf="@+id/mapView"
+        app:layout_constraintStart_toStartOf="@+id/mapView" />
+
+    <TextView
+        android:id="@+id/textShelter"
+        style="@style/textStyle"
+        android:layout_marginBottom="16dp"
+        android:text="@string/shelter"
+        app:layout_constraintBottom_toTopOf="@+id/itemView"
+        app:layout_constraintEnd_toEndOf="@+id/shelterView"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/shelterView" />
+
+    <TextView
+        android:id="@+id/textFight"
+        style="@style/textStyle"
+        android:layout_marginBottom="24dp"
+        android:text="@string/fight"
+        app:layout_constraintBottom_toTopOf="@+id/shelterView"
+        app:layout_constraintEnd_toEndOf="@+id/fightView"
+        app:layout_constraintStart_toStartOf="@+id/fightView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:clickable="true"
+        android:onClick="onClick"
+        android:contentDescription="@string/fight"
+        android:id="@+id/fightView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fight"
+        app:layout_constraintBottom_toTopOf="@+id/textFight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toEndOf="@+id/mapView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp"
+        />
+
+    <TextView
+        android:id="@+id/textItem"
+        style="@style/textStyle"
+        android:layout_marginBottom="40dp"
+        android:contentDescription=""
+        android:text="@string/items"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/itemView"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/itemView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:clickable="true"
+        android:onClick="onClick"
+        android:contentDescription="@string/inventory"
+        android:id="@+id/inventoryView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/inventory"
+        app:layout_constraintBottom_toTopOf="@+id/textInventory"
+        app:layout_constraintEnd_toEndOf="@+id/textMap"
+        app:layout_constraintStart_toStartOf="@+id/textMap"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:clickable="true"
+        android:onClick="onClick"
+        android:contentDescription="@string/shelter"
+        android:id="@+id/shelterView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shelter"
+        app:layout_constraintBottom_toTopOf="@+id/textShelter"
+        app:layout_constraintEnd_toEndOf="@+id/textFight"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/textFight"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <TextView
+
+        android:id="@+id/textInventory"
+        style="@style/textStyle"
+        android:layout_marginBottom="16dp"
+        android:text="@string/inventory"
+        app:layout_constraintBottom_toTopOf="@+id/traderView"
+        app:layout_constraintEnd_toEndOf="@+id/inventoryView"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/inventoryView" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/mapView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:contentDescription="@string/maps"
+        android:onClick="onClick"
+        android:scaleType="centerCrop"
+        android:src="@drawable/map"
+        app:layout_constraintBottom_toTopOf="@+id/textMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:clickable="true"
+        android:onClick="onClick"
+        android:contentDescription="@string/items"
+        android:id="@+id/itemView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/items"
+        app:layout_constraintBottom_toTopOf="@+id/textItem"
+        app:layout_constraintEnd_toEndOf="@+id/textShelter"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/textShelter"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

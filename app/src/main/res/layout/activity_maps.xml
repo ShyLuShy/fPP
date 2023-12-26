@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOnSecondary"
+    tools:context=".activities.MapsActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textCustoms"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCustoms"
+        app:layout_constraintStart_toStartOf="@+id/buttonCustoms"
+        app:layout_constraintTop_toTopOf="@+id/buttonCustoms"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textlaboratory"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLab"
+        app:layout_constraintStart_toStartOf="@+id/buttonLab"
+        app:layout_constraintTop_toTopOf="@+id/buttonLab"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textFactory"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFactory"
+        app:layout_constraintStart_toStartOf="@+id/buttonFactory"
+        app:layout_constraintTop_toTopOf="@+id/buttonFactory"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textInterchange"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInterchange"
+        app:layout_constraintStart_toStartOf="@+id/buttonInterchange"
+        app:layout_constraintTop_toTopOf="@+id/buttonInterchange"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textLighthouse"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLighthouse"
+        app:layout_constraintStart_toStartOf="@+id/buttonLighthouse"
+        app:layout_constraintTop_toTopOf="@+id/buttonLighthouse"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining15"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textStreets"
+        app:layout_constraintEnd_toEndOf="@+id/buttonStreets"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonStreets"
+        app:layout_constraintTop_toTopOf="@+id/buttonStreets"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining14"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textShoreline"
+        app:layout_constraintEnd_toEndOf="@+id/buttonShoreline"
+        app:layout_constraintStart_toStartOf="@+id/buttonShoreline"
+        app:layout_constraintTop_toTopOf="@+id/buttonShoreline"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining13"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textReserve"
+        app:layout_constraintEnd_toEndOf="@+id/buttonReserve"
+        app:layout_constraintStart_toStartOf="@+id/buttonReserve"
+        app:layout_constraintTop_toTopOf="@+id/buttonReserve"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lining12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textWoods"
+        app:layout_constraintEnd_toEndOf="@+id/buttonWoods"
+        app:layout_constraintStart_toStartOf="@+id/buttonWoods"
+        app:layout_constraintTop_toTopOf="@+id/buttonWoods"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/lining"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <TextView
+        android:id="@+id/textWoods"
+        style="@style/textStyle2"
+        android:layout_marginBottom="60dp"
+        android:text="@string/woods"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStreets"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFactory"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonFactory" />
+
+    <TextView
+        android:id="@+id/textStreets"
+        style="@style/textStyle2"
+        android:layout_marginBottom="100dp"
+        android:text="@string/streets"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFactory"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonFactory" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonStreets"
+        style="@style/imageSize"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textStreets"
+        app:layout_constraintEnd_toEndOf="@+id/buttonWoods"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonWoods"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_streets"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonWoods"
+        style="@style/imageSize"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textWoods"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFactory"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonFactory"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_woods"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonFactory"
+        style="@style/imageSize"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textFactory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_factory"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonShoreline"
+        style="@style/imageSize"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textShoreline"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLighthouse"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonLighthouse"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_shoreline"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonLighthouse"
+        style="@style/imageSize"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textLighthouse"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLab"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonLab"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_lighthouse"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonLab"
+        style="@style/imageSize"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textlaboratory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_lab"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonCustoms"
+        style="@style/imageSize"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textCustoms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_customs"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonInterchange"
+        style="@style/imageSize"
+        android:fontFamily="@font/zword"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textInterchange"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCustoms"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonCustoms"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_interchange"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/buttonReserve"
+        style="@style/imageSize"
+        app:layout_constraintBottom_toTopOf="@+id/textReserve"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInterchange"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonInterchange"
+        app:shapeAppearanceOverlay="@style/shapeAppearance"
+        app:srcCompat="@drawable/ic_reserve"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0dp" />
+
+    <TextView
+        android:id="@+id/textCustoms"
+        style="@style/textStyle2"
+        android:layout_marginBottom="60dp"
+        android:text="@string/customs"
+        app:layout_constraintBottom_toTopOf="@+id/buttonInterchange"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCustoms"
+        app:layout_constraintStart_toStartOf="@+id/buttonCustoms" />
+
+    <TextView
+        android:id="@+id/textInterchange"
+        style="@style/textStyle2"
+        android:layout_marginBottom="60dp"
+        android:text="@string/interchange"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReserve"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInterchange"
+        app:layout_constraintStart_toStartOf="@+id/buttonInterchange" />
+
+    <TextView
+        android:id="@+id/textReserve"
+        style="@style/textStyle2"
+        android:layout_marginBottom="100dp"
+        android:text="@string/reserve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonReserve"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonReserve" />
+
+    <TextView
+
+        android:id="@+id/textlaboratory"
+        style="@style/textStyle2"
+        android:layout_marginBottom="60dp"
+        android:text="@string/laboratory"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLighthouse"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLab"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonLab" />
+
+    <TextView
+        android:id="@+id/textLighthouse"
+        style="@style/textStyle2"
+        android:layout_marginBottom="60dp"
+        android:text="@string/lighthouse"
+        app:layout_constraintBottom_toTopOf="@+id/buttonShoreline"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLighthouse"
+        app:layout_constraintStart_toStartOf="@+id/buttonLighthouse" />
+
+    <TextView
+
+        android:id="@+id/textShoreline"
+        style="@style/textStyle2"
+        android:layout_marginBottom="80dp"
+        android:text="@string/shoreline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonShoreline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonShoreline" />
+
+    <TextView
+        android:id="@+id/textFactory"
+        style="@style/textStyle2"
+        android:layout_marginBottom="60dp"
+        android:text="@string/factory"
+        app:layout_constraintBottom_toTopOf="@+id/buttonWoods"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFactory"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonFactory" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
